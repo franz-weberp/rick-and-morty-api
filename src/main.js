@@ -1,6 +1,6 @@
-import './assets/main.css'
+import '@styles/main.scss'
 
 import { createApp } from 'vue'
-import Home from './views/Home.vue'
+import App from './App.vue'
 
-createApp(Home).mount('#app')
+createApp(App).mount('#app')

@@ -1,5 +1,5 @@
 export async function retry(requestEndopoint, maxRetries = 5, delay = 3000) {
-  let retries = 0;
+  let retries = 0
 
   while (retries < maxRetries) {
     try {  return await requestEndopoint() } 
@@ -7,7 +7,7 @@ export async function retry(requestEndopoint, maxRetries = 5, delay = 3000) {
       retries++
 
       if (retries < maxRetries) { await wait(delay) } 
-      else { throw error }
+      else { throw new Error('Seems the API is offline right now') }
     }
   }
 }

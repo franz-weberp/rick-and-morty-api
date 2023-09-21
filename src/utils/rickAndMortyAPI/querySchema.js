@@ -1,7 +1,7 @@
 function generateFilterString(filters) {
   return Object.entries(filters)
     .map(([key, value]) => `${key}: "${value}"`)
-    .join(', ');
+    .join(', ')
 }
 
 export function queryCharacter(queryType, filters) {

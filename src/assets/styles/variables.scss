@@ -1,0 +1,59 @@
+$xs-mobile:    'xs-mobile';
+$mobile:       'mobile';
+$xs-tablet:    'xs-tablet';
+$xxs-desktop:  'xxs-desktop';
+$xs-desktop:   'xs-desktop';
+$desktop:      'desktop';
+
+@mixin font-bold {
+  font-family: "Roboto Condensed Bold";
+  font-weight: 700;
+}
+
+@mixin font-regular {
+  font-family: "Roboto Condensed Regular";
+  font-weight: 400;
+}
+
+@mixin highlight {
+  border: 0;
+  outline: 2px solid $color-lightoragange;
+}
+
+@mixin search-interactive {
+  @include font-regular;
+  border: 0;
+  font-size: $font-size-xs;
+  height: $button-height;
+  padding: 0 24px;
+}
+
+$button-height: 48px;
+
+$font-size-xxs: 14px;
+$font-size-xs: 16px;
+$font-size-sm: 18px;
+$font-size-md: 20px;
+$font-size-lg: 24px;
+$font-size-xl: 28px;
+$font-size-xxl: 40px;
+
+$color-white: rgb(255, 255, 255);
+$color-whiteegg: rgba(245, 245, 245, 1);
+
+$color-lightestgrey: rgb(158, 158, 158);
+$color-lightgrey: rgba(235, 235, 235, 0.5);
+$color-grey: rgb(39, 43, 51);
+$color-darkgrey: rgb(32, 35, 41);
+
+$color-red: rgb(214, 61, 46);
+$color-green: rgb(85, 204, 68);
+
+$color-lightoragange: rgb(255, 125, 0);
+$color-orange: rgba(255, 152, 0, 1);
+
+$color-darkblue: rgb(50, 62, 68);
+
+$p-24: 24px;
+$card-width: 600px;
+$card-height: 200px;

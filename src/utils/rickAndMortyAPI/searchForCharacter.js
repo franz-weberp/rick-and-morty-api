@@ -18,5 +18,8 @@ export async function searchForCharacter(queryType, filters) {
     return data
   }
 
-  catch (error) { throw 'Error: ' + error }
+  catch (error) {
+    if (error.message === 'Seems the API is offline right now')
+    throw 'Error: ' + error
+  }
 }

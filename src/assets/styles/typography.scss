@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Roboto Condensed Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("fonts"), url('@fonts/RobotoCondensed-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed Bold';
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local("fonts"),url('@fonts/RobotoCondensed-Bold.ttf') format('truetype');
+}

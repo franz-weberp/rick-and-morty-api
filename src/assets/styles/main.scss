@@ -1,0 +1,9 @@
+@import './base.scss';
+
+p { margin: 0; }
+
+p, input, select, button, span {
+  font-family: "Roboto Condensed Regular";
+  font-weight: 400;
+  font-size: $font-size-xxs;
+}
