@@ -4,7 +4,7 @@
     <option value="" selected>All</option>
     <option value="Alive">Alive</option>
     <option value="Dead">Dead</option>
-    <option value="Unknow">Unknow</option>
+    <option value="Unknown">Unknown</option>
   </select>
 </template>
 

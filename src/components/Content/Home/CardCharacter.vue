@@ -81,6 +81,10 @@ const props = defineProps({
     color: $color-whiteegg;
     font-size: $font-size-xl;
     line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 25ch;
   }
 
   > .location {
@@ -100,6 +104,7 @@ const props = defineProps({
       color: $color-white;
       display: flex;
       font-size: $font-size-sm;
+      text-transform: capitalize;
     }
 
 }
