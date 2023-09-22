@@ -1,51 +1,34 @@
-# rick-and-morty-api
+# Rick and Morty API - Demo (https://stupendous-biscuit-edf5a3.netlify.app/) 
+O projeto se trata de uma pagina onde é possivel buscar e exibir informações dos personagens da famosa série Rick and Morty, utilizando a API pública "Rick and Morty API" (https://rickandmortyapi.com/)
 
-This template should help get you started developing with Vue 3 in Vite.
+## As funcionalidades desse feed são:
+- :white_check_mark: Uso da Composition API do Vue3.
+- :white_check_mark: Exibir os personagens em cards, como mostrado na página inicial da documentação da API (https://rickandmortyapi.com/)
+- :white_check_mark: Busca por nome e filtrar por status. (alive, dead or unknown)
+- :white_check_mark: Paginação para interagir entre o resultado da pesquisa dos personagens.
+- :white_check_mark: Uso do framework de testes Cypress para testes automatizados de componentes e integração da aplicação.
+- :white_check_mark: Boas práticas recomendadas de desenvolvimento Vue, como separação de componentes, reutilização de código e código limpo.
+> .env utilizada para realizar o request de GraphQL: https://rickandmortyapi.com/graphql
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+## Instalar
+Para utilizar o projeto localmente basta:
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
+![Desktop](https://github.com/franz-weberp/rick-and-morty-api/blob/main/public/desktop.png)
 
-### Compile and Minify for Production
-
+## Realizar testes:
+Para realizar o teste na janela do cypress
 ```sh
-npm run build
+npm test:e2e:dev
 ```
 
-### Run Headed Component Tests with [Cypress Component Testing](https://on.cypress.io/component)
+## Tech
+Foi utilizado no desenvolvimento do projecto 
 
-```sh
-npm run test:unit:dev # or `npm run test:unit` for headless testing
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
+- VueJS
+- Sass
+- Graphql
+- Cypress
+- Vite
