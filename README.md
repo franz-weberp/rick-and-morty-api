@@ -8,7 +8,7 @@ O projeto se trata de uma pagina onde é possivel buscar e exibir informações 
 - :white_check_mark: Paginação para interagir entre o resultado da pesquisa dos personagens.
 - :white_check_mark: Uso do framework de testes Cypress para testes automatizados de componentes e integração da aplicação.
 - :white_check_mark: Boas práticas recomendadas de desenvolvimento Vue, como separação de componentes, reutilização de código e código limpo.
-> .env utilizada para realizar o request de GraphQL: https://rickandmortyapi.com/graphql
+> .env utilizada para realizar o request de GraphQL: VITE_RICKANDMORTY_API_ENDPOINT = https://rickandmortyapi.com/graphql
 
 ## Instalar
 Para utilizar o projeto localmente basta:
