@@ -1,4 +1,4 @@
-# Rick and Morty API - Demo (https://stupendous-biscuit-edf5a3.netlify.app/) 
+# Rick and Morty API - [Demo](https://rickandmorty-franz.netlify.app/)
 O projeto se trata de uma pagina onde é possivel buscar e exibir informações dos personagens da famosa série Rick and Morty, utilizando a API pública "Rick and Morty API" (https://rickandmortyapi.com/)
 
 ## As funcionalidades desse feed são:
